@@ -19,9 +19,7 @@ class App extends StatelessWidget {
       builder: (context, snapshot) {
         // Check for errors
         if (snapshot.hasError) {
-          return Center(
-            child: Text('Could not load app'),
-          );
+          return Center(child: Text('Could not load app'));
         }
 
         // Once complete, show your application
