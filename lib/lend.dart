@@ -51,7 +51,7 @@ class _LendScreenState extends State<LendScreen> {
       'availability': availability,
       'contact': userData.data()['cellnumber'],
       'category': category,
-      'location': location,
+      'location': location
       // 'userImage':  _image,
     });
     _controller.clear();
